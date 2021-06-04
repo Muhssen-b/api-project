@@ -40,7 +40,8 @@
 }
 
 .coin-image{
-    height: 45px;
+    height: 30px;
+    padding-right: 15px;
 }
 
 .coin-price{
