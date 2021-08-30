@@ -15,7 +15,7 @@ const coin = ({name, marketCap, image, price, volume, coin, search, symbol, pric
                         </p>
                         </div>
                         <div className="coin-data">
-                            <p className="coin-price">${price}</p>
+                            <p className="coin-price">${price.toFixed(2)}</p>
                             <p className="coin-volume">${volume.toLocaleString() }</p>
                         </div>
                         <div className="">

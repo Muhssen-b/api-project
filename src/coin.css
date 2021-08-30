@@ -46,15 +46,22 @@
 
 .coin-price{
     width: 110px;
+    
 }
+
+/* 110 */
 
 .coin-volume{
     width: 230px;
 }
 
+/*230*/
+
 .coin-market-cap{
     padding-left: 155px;
 }
+
+/* 155px */
 
 .coin-percent{
     width: 100%;
@@ -67,3 +74,112 @@
 .green{
     color: #11d811
 }
+
+
+@media screen and (max-width: 400px) {
+
+    p{
+        font-size: 8px;
+    }
+
+    .coin-cointainer {
+        display:flex;
+        justify-content: center;
+    
+    }
+    
+    .coin-row{
+        display:flex;
+        flex-direction: row;
+        justify-items: start;
+        align-items: center;
+        height: 40px;
+        border-bottom: 1px solid #d7d7dd;
+        width: 95%;
+    }
+    
+    .coin{
+        display: flex;
+        align-items: center;
+        padding-right: 24px;
+        max-width: 40px;
+    
+    }
+    
+    .coin > h1 {
+        font-size: 8px;
+        width: 42px; 
+        margin-left: 150px;
+        margin-right: -40px
+        
+    }
+
+    .coin > img {
+
+       margin-left: 31px;
+
+    }
+
+    .coin-image {
+        margin-left: 100px;
+    }
+    
+    .coin-symbol{
+        text-transform: uppercase;
+        margin-left: 50px;
+        margin-right: 220px;
+    }
+    
+    .coin-data{
+        display:flex;
+        text-align: center;
+        justify-content: space-between;
+        width: 100%;
+    
+    }
+    
+    .coin-image{
+        height: 30px;
+        padding-right: 1px;
+        margin-right: -150px;
+        margin-left: 90px;
+    }
+    
+    .coin-price{
+        margin-left: -170px;
+        margin-right: -90px;
+    }
+    
+    /* 110 */
+    
+    .coin-volume{
+       width: 30px;
+       margin-left: -90px; 
+       margin-right: 59px;
+    }
+    
+    /*230*/
+    
+    .coin-market-cap{
+        padding-left: 5px;
+        font-size: 8px;
+        margin-right: 70px;
+    }
+    
+    /* 155px */
+    
+    .coin-percent{
+       width: 100%; 
+    }
+    
+    .red{
+        color: #f00606;
+        margin-left: -28px;
+    }
+    
+    .green{
+        color: #11d811;
+        margin-left: -28px;
+    }
+   
+  }
