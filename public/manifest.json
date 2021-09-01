@@ -1,6 +1,7 @@
 {
 
-  
+  "short_name": "React App",
+  "homepage" : "https://muhssen-b.github.io/api-project/",
   "name": "Create React App Sample",
   "icons": [
     {
